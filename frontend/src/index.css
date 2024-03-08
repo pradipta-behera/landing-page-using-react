@@ -1,13 +1,128 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: #0b1b3a;
+  background-image: linear-gradient(rgb(7, 7, 59), rgb(73, 44, 44));
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  padding: 10px 40px;
+
+}
+
+.heading h1 {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+.heading h1:hover {
+  transform: scale(1.1);
+  color: #ffd839
+}
+
+.header .navigation {
+  list-style: none;
+}
+
+.header .navigation ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px 30px;
+}
+
+.header .navigation ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header .navigation ul li a:hover {
+  color: #ffd839;
+
+}
+
+.main {
+  display: flex;
+  height: 80%;
+  align-items: center;
+}
+
+.content {
+  flex-basis: 50%;
+  margin-left: 5rem;
+
+}
+
+.content h2 {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.content p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-right: 10rem;
+}
+
+.content button {
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  white-space: nowrap;
+  color: var(--black);
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1.5px 10px 30px #000;
+  margin-top: 2rem;
+
+}
+
+.content button:hover {
+  background-color: rgb(113, 65, 65);
+  color: #fff;
+  box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff;
+
+}
+
+.asset {
+  width: 200px;
+  height: 220px;
+  margin: 10px 15px;
+  padding: 15px 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image {
+  background-image: url(./assets/pic1.png);
+  transition: trasform 0.2s;
+}
+
+.image:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
