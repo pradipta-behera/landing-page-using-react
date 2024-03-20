@@ -9,12 +9,10 @@ const Header = () => {
             <nav className="navigation">
                 <ul>
                     <li><a href='/'>Enter Code</a></li>
-                    <li><a href='/'>Sign up</a></li>
-                    <li><a href='/'>Log in</a></li>
+                    <li><a href='/signup'>Sign up</a></li>
+                    <li><a href='/login'>Log in</a></li>
                 </ul>
-            </nav>
-            
-
+            </nav>   
         </div>
     );
 }

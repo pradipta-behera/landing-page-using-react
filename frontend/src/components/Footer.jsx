@@ -7,6 +7,7 @@ import { MdPlace } from "react-icons/md";
 
 
 
+
 const Footer = () => {
     return (
         <div className='footer'>
@@ -14,10 +15,10 @@ const Footer = () => {
                 <div className='row'>
                     <div className='col_1'>
                         <h1>Quizify</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum iaculis nunc, tristique sagittis nulla. Pellentesque a leo felis. 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum iaculis nunc, tristique sagittis nulla. Pellentesque a leo felis.
                             Donec eu mollis diam, eget condimentum odio.</p>
-                            <FaGithub className='icon' />
-                            <FaLinkedin className='icon'/>
+                        <FaGithub className='icon' />
+                        <FaLinkedin className='icon' />
 
                     </div>
                     <div className='col_2'>
@@ -35,12 +36,19 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='col_3'>
-                    <h3>Contact Info</h3>
-                       <p><FaPhoneAlt className=''/>+91 9438132541</p>
-                       <p> <MdEmail className='' />behura960@gmail.com</p>
-                       <p> <MdPlace className=''/>Odisha,India</p>
+                        <h3>Contact Info</h3>
+                        <p><FaPhoneAlt className='' /> +91 9438132541</p>
+                        <p><MdEmail className='' /> behura960@gmail.com</p>
+                        <p> <MdPlace className='' /> Odisha,India</p>
                     </div>
+
                 </div>
+
+
+            </div>
+            <hr></hr>
+            <div className='copyright'>
+                <p>Copyright &#169; 2024 Quizify. All rights reserved.</p>
             </div>
 
         </div>
