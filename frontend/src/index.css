@@ -45,6 +45,7 @@
   color: #ffd839
 }
 
+
 .header .navigation {
   list-style: none;
 }
@@ -110,7 +111,7 @@
 }
 
 .content button:hover {
-  background-color:#04293A;
+  background-color: #04293A;
   color: #fff;
   box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff;
 
@@ -319,14 +320,15 @@
   padding: 2px 0;
 }
 
-.copyright{
+.copyright {
   text-align: center;
   padding: 1rem;
-  
- 
-  
+
+
+
 }
-.copyright p{
+
+.copyright p {
   color: #fff;
-  
+
 }
